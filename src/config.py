@@ -1,0 +1,26 @@
+MODEL_PATH = "models/hand_landmarker.task"
+ML_MODEL_PATH = "models/bisindo_model.pkl"
+DATASET_FILE = "data/bisindo_dataset.csv"
+
+MEDIAPIPE_MODEL_URL = (
+    "https://storage.googleapis.com/mediapipe-models/"
+    "hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task"
+)
+
+SPEAK_COOLDOWN = 3.0
+SPEAK_REPEAT_INTERVAL = 5.0
+TTS_SPEECH_RATE = 145
+TTS_VOLUME = 1.0
+
+HAND_DETECTION_CONFIDENCE = 0.5
+HAND_PRESENCE_CONFIDENCE = 0.5
+HAND_TRACKING_CONFIDENCE = 0.5
+MAX_HANDS = 2
+
+SAMPLES_PER_LETTER = 100
+LETTERS = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+
+RANDOM_FOREST_ESTIMATORS = 200
+RANDOM_FOREST_MAX_DEPTH = 20
+RANDOM_FOREST_RANDOM_STATE = 42
+ML_CONFIDENCE_THRESHOLD = 0.75
