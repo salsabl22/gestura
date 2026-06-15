@@ -1,5 +1,10 @@
 # Gestura
 
+<img width="400" alt="image (3)" src="https://github.com/user-attachments/assets/20d9e0a0-a60f-4879-affe-6026f66b3695" />
+<img width="400" alt="image (4)" src="https://github.com/user-attachments/assets/9bbde065-8589-4fda-882c-e092fc928e4b" />
+
+
+
 Real-time BISINDO (Indonesian Sign Language) hand sign detection using MediaPipe Hands, OpenCV, and scikit-learn. Supports both rule-based and ML-based recognition with text-to-speech output.
 
 ---
